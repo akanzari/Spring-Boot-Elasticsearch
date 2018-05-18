@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.6.147:5432/testSP
+    username: postgres
+    password: postgres123
+    continueOnError: true
+  jpa:
+    hibernate:
+      ddl-auto: update
